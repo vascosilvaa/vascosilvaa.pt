@@ -17,7 +17,7 @@ class Home extends Component {
           <Row className="mt-5 mb-5">
             {articles.map(article =>
               <Col md="4">
-                <ArticleCard id="1" title={article.title} subtitle={article.description} img={article.img} />
+                <ArticleCard id={article.id} title={article.title} subtitle={article.description} img={article.img}/>
               </Col>
             )}
           </Row>
