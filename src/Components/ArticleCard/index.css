@@ -1,0 +1,15 @@
+.article-card a {
+  text-decoration: none;
+}
+
+.article-card a:hover {
+  text-decoration: none!important;
+}
+
+.cardDescription {
+  text-decoration: none;
+}
+
+.cardDescription:hover {
+  text-decoration: none!important;
+}
